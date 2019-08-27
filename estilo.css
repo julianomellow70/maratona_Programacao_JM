@@ -1,0 +1,135 @@
+*{
+   margin: 0; padding: 0; box-sizing: border-box; 
+   font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+background-image: url(imagens/footer-imagem-homem-programando.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0px 0px 100px 0px;
+}
+    .header__menu{
+        display: flex;
+       
+    }
+    .header__menu--fundo{
+        background-color: rgba(229, 229, 229, 0.5);
+    }
+    .header__topo{
+        
+        background-color: rgba(241, 196, 15, 0.5);
+        border: none;
+        padding: 0px;
+        margin: 0px 0px 10px 0px;
+       
+    }
+    header img {
+        width: 100%;
+        margin: 50px 10px 0px 0px;
+    }
+
+    @media (min-width: 600px){
+        header img{
+          display: none; 
+        } 
+    }
+
+    
+    .header__title{
+        font-size: 29px;
+        line-height: 34px;
+        text-align: center;
+        background-color: rgba(241, 196, 15, 0.5);
+        margin: 0px 0px 10px 0px;
+        padding: 25px 0px 0px 0px;
+    }
+
+    @media (min-width: 600px){
+        .header__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 70px auto;
+        padding: 20px;
+        }
+    }
+
+        .header__title--segundo{
+            font-size: 29px;
+            line-height: 34px;
+            text-align: center;
+            background-color: rgba(241, 196, 15, 0.5);
+            margin: 0 25px 0px 25px ;
+            padding: 2px 2px 2px 2px;
+        }
+
+        .header__title--terceiro{
+            font-size: 20px;
+            line-height: 34px;
+            text-align: center;
+            background-color: rgba(241, 196, 15, 0.5);
+            margin: 10px 100px 0px 100px ;
+        }
+        .header__title--quarto{
+            font-size: 18px;
+            line-height: 34px;
+            text-align: center;
+            background-color: rgba(241, 196, 15, 0.5);
+            margin: 10px 50px 0px 50px ;
+        }
+    header nav{
+        display: none;
+    }
+
+    @media (min-width: 600px){
+        header nav{
+            display: flex;
+        } 
+    }
+    @media (min-width: 600px){
+        header ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+           
+        } 
+
+    }
+    @media (min-width: 600px){
+        .header__itemMenu{
+        padding: 10px;
+        } 
+        .header__itemMenu a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+    
+    .header__inscricao {
+    display: flex;
+    justify-content: center;
+    }
+    @media (min-width: 600px){
+        .header__inscricao{
+        display: none;
+        }
+        .header__inscricao--barraMenu{
+            background-color: #E74C3C;
+            border-radius: 5px;
+            padding: 5px;
+            color: white;
+        } 
+    }
+    .header__inscricao a{
+        margin: 10px;
+        text-decoration: none;
+        background-color: #E74C3C;  
+        padding: 6px; 
+        color: white;
+        border-radius: 6px;
+    }
