@@ -34,12 +34,15 @@
         <span class = header__inscricao ><a href="#">Inscrição</a></span>
     </div>
     </header>
+    <div class="container">
     <main>
+        
         <section>
-            <div>Sobre</div>
+            <div class="titulo__texto">Sobre</div>
             <article>
-                <h1>I Fase da Maratona de Programação da SBC – Etapa Regional</h1>
-                <p>
+                <h1 class="subtitulo__texto">I Fase da Maratona de Programação da SBC – Etapa Regional</h1>
+               <div class = "texto__corpo">
+                <p >
                     A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. A Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de programação da ACM, o ACM International Collegiate Programming Contest, e é parte da regional sulamericana do concurso. Neste ano ocorre a 23a. edição da Maratona. Ela se destina a alunos e alunas de cursos de graduação e início de pós-graduação na área de Computação e afins (Ciência da Computação, Engenharia de Computação, 
                     Sistemas de Informação, Matemática, etc). 
                 </p>
@@ -55,12 +58,13 @@
                <p>
                     Nos enunciados dos problemas constam exemplos dos dados dos problemas, mas eles não têm acesso às instâncias testadas pelos juízes. A cada submissão incorreta de um problema (ou seja, que deu resposta incorreta a uma das instâncias dos juízes) é atribuída uma penalidade de tempo. O time que conseguir resolver o maior número de problemas (no menor tempo acumulado com as penalidades, caso haja empate) é declarado o vencedor.
                </p>
+            </div>
             </article>
         </section>
         <section>
-           <div>Programação</div>
+           <div class="titulo__texto">Programação</div>
            <article>
-               <table>
+               <table class="tabela">
                    <tr>
                        <th>Data</th>
                        <th>Programação</th>
@@ -98,28 +102,49 @@
         </section>
         <section>
             <article>
-                <div>Localização</div>
+                <div class = "titulo__texto">Localização</div>
                 <div style="overflow:hidden;width: 700px;position: relative;"><iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=IFRO%20-%20Campus%20Vilhena+(Localiza%C3%A7%C3%A3o)&amp;ie=UTF8&amp;t=k&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a> & <a href="https://rechargevodafone.co.uk">https://rechargevodafone.co.uk/vodafone-pay-as-you-go/</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
             </article>
         </section>
         <section>
-            <div>Contato</div>
+           
+            <div class = "titulo__texto">Contato</div>
             <form >
-            Nome</br>
-            <input type="text" name = "nome"></br>
-            Email</br>
-            <input type="text" name = "email"></br>
-            Mensagem</br>
-            <input type="text" name = "mensagem"></br>
-            <input type="submit" value="Enviar">
+        <div class="sessao_contato__blocoD">
+
+               
+            <div class="sessao_contato__blocoA">
+                <div class = "sessao_contato__blocoB">
+            <label for="nome" >Nome</label>
+            <input  class = "sessao_contato__input" type="text" name = "nome"></br>
+                </div>
+                <div class = "sessao_contato__blocoB">
+            <label for="email">Email</label>
+            <input class = "sessao_contato__input" type="text" name = "email"></br>
+            </div>
+             </div>
+             <div class = "sessao_contato__blocoC">
+            <label for="mensagem">Mensagem:</label>
+            <textarea class="sessao_contato__input--mensagem"  id="mensagem" cols="30" rows="10"></textarea>
+            
+            <input class = "sessao_contato__btn_Enviar" type="submit" value="Enviar">
+        </div>
+
+        </div>
             </form>
         </section>
     </main>
+</div>
     <footer>
-        <div><img src="imagens/ifro_footer.png" alt="ícone do IFRO"></div>
-        <div>IFRO campus Vilhena</div>
-        <div>IFRO Campus Vilhena Endereço: Rodovia BR-174, Km 3 S/n Zona Urbana, Vilhena - RO, 76980-000 </div>
-        <div>Telefone: (69) 2101-0700</div>
+        <div class = "container">
+            <div class = "footer__divImagem">
+        <img src="imagens/ifro_footer.png" alt="ícone do IFRO">
+        </div>
+        <div class = "footer__texto">IFRO campus Vilhena</div>
+        <div class = "footer__texto">IFRO Campus Vilhena Endereço: Rodovia BR-174, Km 3 S/n Zona Urbana, Vilhena - RO, 76980-000 </div>
+        <div class = "footer__texto">Telefone: (69) 2101-0700</div>
+        
+        </div>
     </footer>
 </body>
 </html>

@@ -54,7 +54,7 @@ padding: 0px 0px 100px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 70px auto;
+        margin: 20px auto;
         padding: 20px;
         }
     }
@@ -67,6 +67,15 @@ padding: 0px 0px 100px 0px;
             margin: 0 25px 0px 25px ;
             padding: 2px 2px 2px 2px;
         }
+        @media (min-width: 600px){
+            .header__title--segundo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 auto;
+                max-width: 400px;
+            }
+        }  
 
         .header__title--terceiro{
             font-size: 20px;
@@ -75,12 +84,32 @@ padding: 0px 0px 100px 0px;
             background-color: rgba(241, 196, 15, 0.5);
             margin: 10px 100px 0px 100px ;
         }
+
+        @media (min-width: 600px){
+            .header__title--terceiro{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 20px auto;
+                max-width: 200px;
+            }
+        }  
         .header__title--quarto{
             font-size: 18px;
             line-height: 34px;
             text-align: center;
             background-color: rgba(241, 196, 15, 0.5);
             margin: 10px 50px 0px 50px ;
+        }
+
+        @media (min-width: 600px){
+            .header__title--quarto{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 20px auto;
+                max-width: 400px;
+            }
         }
     header nav{
         display: none;
@@ -133,3 +162,157 @@ padding: 0px 0px 100px 0px;
         color: white;
         border-radius: 6px;
     }
+
+    /*TEXTO*/
+    .titulo__texto{
+        font-size: 30px;
+        margin: 100px 10px 10px 10px;
+        text-align: center;
+    }
+    @media (min-width: 600px){
+        .titulo__texto{
+            font-size: 32px;
+            margin: 100px 10px 20px 10px;
+        }
+    }
+    
+    .subtitulo__texto{
+        font-size: 28px;
+        margin: 5px 0px 30px 0px;
+        text-align: center;
+    }
+
+    @media (min-width: 600px){
+        .titulo__texto{
+            font-size: 30px;
+        }
+    }
+
+    .texto__corpo{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .texto__corpo p {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    @media (min-width: 600px){
+        .texto__corpo{
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    }
+
+    /* TABELA MAIN */
+
+    .tabela {
+        border: 1px solid black;
+        border-collapse: collapse;
+       margin: 10px auto; 
+    }
+    .tabela tr {
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .tabela td {
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .tabela th {
+        border: 1px solid black;
+        background-color: #E5E5E5;
+        padding: 20px;
+    }
+    
+    /* CONTATO */
+
+    .sessao_contato__input {
+        border: 1px #F1C40F solid;
+        border-radius: 5px;
+        margin: 25px;
+        width: 400px;
+        height: 30px; 
+    }
+    .sessao_contato__input--mensagem {
+        
+        border: 1px #F1C40F solid;
+        border-radius: 5px;
+        margin-top:10px;
+        width: 400px;
+        height: 300px; 
+        resize: none;
+    }
+    @media (min-width: 600px){
+        .sessao_contato__input--mensagem {
+        
+            
+            width: 800px;
+            height: 300px; 
+          
+        }
+    }
+
+    .sessao_contato__blocoA{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .sessao_contato__blocoB{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .sessao_contato__blocoB label{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 30px;
+    }
+    .sessao_contato__blocoC{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+
+    .sessao_contato__btn_Enviar{
+        background-color:#F1C40F;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 150px;
+    }
+
+    
+    @media (min-width: 600px){
+        .sessao_contato__blocoD{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    /*FOOTER*/
+
+    footer{
+        background-color: #F1C40F;
+        margin: 0 auto;
+    }
+
+    
+    .foooter__divImagem{
+  display: block;
+    }
+  footer img {
+      width: 100px;
+      height: 100px;
+      margin: 0px auto; 
+     
+  } 
+
+  .footer__texto{
+      text-align: center;
+  }
+    
+   
