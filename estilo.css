@@ -298,16 +298,16 @@ padding: 0px 0px 100px 0px;
     footer{
         background-color: #F1C40F;
         margin: 0 auto;
+        padding-bottom: 70px;
     }
 
     
     .foooter__divImagem{
-  display: block;
+
     }
-  footer img {
-      width: 100px;
-      height: 100px;
-      margin: 0px auto; 
+  footer>div>img {
+
+   text-align: center;
      
   } 
 
